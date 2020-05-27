@@ -67,7 +67,7 @@ if (count($data)){
 }
 elseif($username=="Admin"&&$password=="admin"){
     $request->session()->put('admin',$username);
-    return view('admindash',['tata'=>$username])->with('thedata',$request->session()->get('admin'));
+    return view('layouts.admin',['tata'=>$username])->with('thedata',$request->session()->get('admin'));
 }
 elseif (count($data2)){
     $Sdata = $data2[0]->id;

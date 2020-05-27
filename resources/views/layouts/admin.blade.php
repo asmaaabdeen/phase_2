@@ -19,7 +19,7 @@
             background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  backdrop-filter: blur(3px);
+  backdrop-filter: blur(1px);
         }
 </style>
 </head>
@@ -36,18 +36,39 @@
         </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto">
-      
+      <li class="nav-item active">
+          <a class="nav-link" href="/admindash" >Home
+                <span class="sr-only">(current)</span>
+              </a>
+        </li>
         
-        <li class="nav-item">
-          <a class="nav-link" href="#" style = "color:black">feedback</a>
+        <li class="nav-item active">
+          <a class="nav-link" href="/show" >Feedback
+                <span class="sr-only">(current)</span>
+              </a>
         </li>
         <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" style = "color:black" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Add Staff
+          Product
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown" style = "background-color:unset">
+          <a class="dropdown-item" href="/addProducts">Add</a>
+          <a class="dropdown-item" href="/Products">List</a>
+          
+      </li>
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" style = "color:black" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Staff
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown" style = "background-color:unset">
+        <p class="dropdown-item">Add</p>
+        
           <a class="dropdown-item" href="/addKS">kitchen</a>
           <a class="dropdown-item" href="/addDB">Delevery</a>
+          <div class="dropdown-divider"></div>
+          <p class="dropdown-item">List</p>
+          <a class="dropdown-item" href="/KSlist">kitchen</a>
+          <a class="dropdown-item" href="/DBlist">Delevery</a>
           
       </li>
       <li class="nav-item">
