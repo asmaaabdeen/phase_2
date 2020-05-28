@@ -41,7 +41,7 @@
                 <span class="sr-only">(current)</span>
               </a>
         </li>
-        
+
         <li class="nav-item active">
           <a class="nav-link" href="/show" >Feedback
                 <span class="sr-only">(current)</span>
@@ -53,8 +53,8 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown" style = "background-color:unset">
           <a class="dropdown-item" href="/addProducts">Add</a>
-          <a class="dropdown-item" href="/Products">List</a>
-          
+          <a class="dropdown-item" href="/ShowProducts">List</a>
+
       </li>
         <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" style = "color:black" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -62,19 +62,19 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown" style = "background-color:unset">
         <p class="dropdown-item">Add</p>
-        
+
           <a class="dropdown-item" href="/addKS">kitchen</a>
           <a class="dropdown-item" href="/addDB">Delevery</a>
           <div class="dropdown-divider"></div>
           <p class="dropdown-item">List</p>
           <a class="dropdown-item" href="/KSlist">kitchen</a>
           <a class="dropdown-item" href="/DBlist">Delevery</a>
-          
+
       </li>
       <li class="nav-item">
           <a class="nav-link" href="/login" style = "color:black">Logout</a>
         </li>
-       
+
       </ul>
     </div>
   </div>
