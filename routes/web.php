@@ -86,3 +86,9 @@ Route::get('/KSlist','StaffController@remove');
 Route::post('/delete','StaffController@delete');
 Route::get('/DBlist','StaffController@remove2');
 Route::post('/delete','StaffController@delete2');
+
+Route::get('/ShowProducts','ProductsController@ShowProducts');
+
+Route::get('/addProducts','ProductsController@ShowAddProducts');
+
+Route::post('/addNewProduct','ProductsController@addProduct');
