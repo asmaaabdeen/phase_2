@@ -63,6 +63,11 @@ Route::get('/updates', function () {
 
             return view('dashboard');
         });
+        Route::get('/admindash', function () {
+
+
+            return view('layouts.admin');
+        });
 
 Route::get('/feedback','FeedbackController@feedback');
 
