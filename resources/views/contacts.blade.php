@@ -450,7 +450,7 @@ dataColumn-id="72"
                         >
                    
             <div class="fixed-ratio" style="padding-bottom: 22.5%">
-        <img data-logo-element class="fixed-ratio-content lazy"  data-src="https://static.ucraft.net/fs/userFiles/demo-burgerbar/images/logo.png?v=1514485357" alt="Ucraft"/>
+        <img data-logo-element class="fixed-ratio-content lazy"  data-src="https://s3.amazonaws.com/bucket.leye.co/uploads/2017/06/m-burger@2x.png" style="height:28px" alt="Ucraft"/>
     </div>
     
                 </div>

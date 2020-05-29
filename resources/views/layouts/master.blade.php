@@ -27,7 +27,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top" >
   <div class="container" style="margin-top:0px">
     <a class="navbar-brand" href="#">
-          <img src="https://static.ucraft.net/fs/userFiles/demo-burgerbar/images/logo.png?v=1514485357" style="margin-top:7px" height="28" alt="">
+          <img src="https://s3.amazonaws.com/bucket.leye.co/uploads/2017/06/m-burger@2x.png" style="margin-top:4px" height="32" alt="">
         </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>

@@ -1,62 +1,54 @@
+
+
 @extends('layouts.admin')
 <head>
+  
 
-<link rel="stylesheet" href="{{asset('register.css')}}">
-
+    <!-- Main css -->
+    <link rel="stylesheet" href="{{ asset('css/maiin.css')}}">
 </head>
-
 @section('content')
 
-<br>
-<h1>Add Product</h1>
-<br>
-<hr style="width:1000px">
+<br><br><br><br><br>
+    <div class="main">
 
-<div class="container">
+        <section class="signup">
+            <!-- <img src="images/signup-bg.jpg" alt=""> -->
+            <div class="contain">
+                <div class="signup-content">
+                    <form method="POST" id="signup-form" class="signup-form" action="/addNewProduct" >
+                        <h2 class="form-title">Add Product</h2>
+                        
+                        <div class="form-group">
+                            <input type="text" class="form-input" name="Productname" id="fname" placeholder="Product name"/>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="text" class="form-input" name="Description" id="lname" placeholder="Description"/>
+                            
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-input" name="Price" id="lname" placeholder="Price"/>
+                            
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-input" name="Photo" id="adress" placeholder="photo link"/>
+                            
+                        </div>
+                        @csrf
+                        <div class="form-group">
+                            <input type="submit" name="submit" id="submit" class="form-submit" value="Add" />
+                        </div>
+                    </form>
+                    
+                </div>
+            </div>
+        </section>
 
-    <form action="/addNewProduct" method="POST">
-    <div class="row">
-      <div class="col-25">
-        <label for="fname">Product Name</label>
-      </div>
-      <div class="col-75">
-        <input type="text" id="fname" name="Productname" placeholder="Product name..">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-25">
-        <label for="lname">Description</label>
-      </div>
-      <div class="col-75">
-        <input type="text" id="lname" name="Description" placeholder="Product Description">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-25">
-        <label for="adress">Photo URL [link]</label>
-      </div>
-      <div class="col-75">
-        <input type="text" id="adress" name="Photo" placeholder="Photo link">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-25">
-        <label for="mail">Price</label>
-      </div>
-      <div class="col-75">
-        <input type="number" id="email" name="Price" placeholder="Price">
-      </div>
     </div>
 
-@csrf
-
-    <br>
-    <div class="row">
-      <input type="submit" value="AddProduct">
-    </div>
-
-    </form>
-
-  </div>
-
-@endsection
+    <!-- JS -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    @endsection
+    

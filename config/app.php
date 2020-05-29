@@ -119,7 +119,7 @@ return [
     |
     */
 
-    'key' => env('APP_KEY',base64_decode("base64:7x1PTrFdOnqBMOXJVor8zBxzraASpIHBfdH8wEF9Qps=base64:v9+PvCZQFXC7ppiAYTccsCS9b971QTtMDWGvOkMK0SY=")),
+    'key' => env('APP_KEY'),
 
     'cipher' => 'AES-256-CBC',
 
@@ -161,7 +161,6 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
-        Barryvdh\DomPDF\ServiceProvider::class,
 
         /*
          * Package Service Providers...
@@ -227,7 +226,6 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
-        'PDF' => Barryvdh\DomPDF\Facade::class,
 
     ],
 

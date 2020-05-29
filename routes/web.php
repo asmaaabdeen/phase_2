@@ -18,9 +18,7 @@ Route::get('/payment', 'BillingController@paymentMethod');
 Route::post('/login','BillingController@savePayment');
 Route::get('/register/submit','customerscontroller@register');
 Route::post('/register','customerscontroller@store');
-Route::get('/menu', function () {
-    return view('menu');
-});
+
 Route::get('/contacts', function () {
     return view('contacts');
 });
@@ -43,7 +41,8 @@ Route::get('/updates', function () {
    //making order
 
    Route::get('/shopping', 'ProductsController@index');
-
+   Route::get('/menu', 'ProductsController@index2');
+   Route::get('/secmenu', 'ProductsController@index3');
    Route::get('order', 'ProductsController@order');
 
    Route::get('add-to-order/{id}', 'ProductsController@addToOrder');

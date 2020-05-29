@@ -75,23 +75,5 @@ public  function delete(Request $req)
       return redirect('/DBlist')->with('success','DeliveryBoy is successfully Deleted !');
 
     }
-    public function UpdateShow()
-    {
-      return view('UpdateKS');
-    }
-    public function updateKS(Request $request)
-    {
-      $this->validate($request, [
-                  'user_name'    =>  'required',
-                  'password'     =>  'required'
-              ]);
-              $KitchenStaff = kitchenStaff::find($request->id);
-              $KitchenStaff->user_name = $request->username ;
-
-              $KitchenStaff->password = $request->password ;
-
-              $KitchenStaff->save();
-              return redirect()->route('KSlist')->with('success', 'Data Updated');
-
-    }
+   
 }
