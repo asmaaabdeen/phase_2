@@ -69,11 +69,9 @@
   </div>
 </nav>
 </div>
-<div class="mb-3"></div>
-      <div style="width:1300px;margin-left:100px">
-      @include ('includes.messages')
-      </div>
-      
+<br>
+<h1 style="margin-left:690px;font-size:50px">Menu</h1>
+
       
 <div class="container page">
     
