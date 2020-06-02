@@ -26,8 +26,8 @@
 <body>
 <div class="bs-example">
 
-<nav class="navbar navbar-expand-lg navbar-dark  static-top" >
-  <div class="container" >
+<nav class="navbar navbar-expand-lg navbar-dark  static-top" style="width:1380px;margin-left:80px">
+ 
     <a class="navbar-brand" href="#">
           <img src="https://s3.amazonaws.com/bucket.leye.co/uploads/2017/06/m-burger@2x.png" height="28" alt="">
         </a>
