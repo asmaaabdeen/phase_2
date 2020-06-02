@@ -9,7 +9,7 @@
 </head>
 @section('content')
 
-<br><br><br><br><br>
+<br><br><br>
     <div class="main">
 
         <section class="signup">

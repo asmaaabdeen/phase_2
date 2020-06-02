@@ -51,7 +51,7 @@
         <a class="nav-link dropdown-toggle" href="#" style = "color:black" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Product
         </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown" style = "background-color:unset">
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown" >
           <a class="dropdown-item" href="/addProducts">Add</a>
           <a class="dropdown-item" href="/ShowProducts">List</a>
 
@@ -60,7 +60,7 @@
         <a class="nav-link dropdown-toggle" href="#" style = "color:black" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
          Staff
         </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown" style = "background-color:unset">
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown" >
         <p class="dropdown-item">Add</p>
 
           <a class="dropdown-item" href="/addKS">kitchen</a>
