@@ -22,7 +22,9 @@ Route::post('/register','customerscontroller@store');
 Route::get('/contacts', function () {
     return view('contacts');
 });
-
+Route::get('/secContact', function () {
+    return view('secContact');
+});
 
 
 
@@ -71,7 +73,7 @@ Route::get('/updates', function () {
 
 Route::get('/feedback','FeedbackController@feedback');
 
-Route::post('/feedback','FeedbackController@saveFeedback');
+Route::post('/feedback/done','FeedbackController@saveFeedback');
 
 Route::get('/show','FeedbackController@showfeedback');
 

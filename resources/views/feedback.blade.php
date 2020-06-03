@@ -4,7 +4,7 @@
 
 <div class="container">
     <div class="row">
-        <form role="form" class="col-md-9 go-right"  action="{{url('/feedback')}}" method="post">
+        <form role="form" class="col-md-9 go-right"  action="{{url('/feedback/done')}}" method="post">
           @csrf
             <h2 style="color:white">Your Feedback</h2>
             <p style="color:white">Please send us your comments and criticism about the service, and we hope that your criticism is constructive in order to improve the level of service.<br> Thank you.</p>

@@ -47,7 +47,11 @@
         </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto">
-        
+      <li class="nav-item active">
+          <a class="nav-link" href="/">Home
+                <span class="sr-only">(current)</span>
+              </a>
+        </li>
         <li class="nav-item">
           <a class="nav-link" href="/menu">Menu</a>
         </li>
@@ -68,7 +72,7 @@
 </nav>
 </div>
 <br>
-<h1 style="margin-left:690px;font-size:50px">Menu</h1>
+
 
       
 <div class="container page">

@@ -55,7 +55,7 @@
           <a class="nav-link" href="/calories">calories</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/contacts">Contacts</a>
+          <a class="nav-link" href="/secContact">Contacts</a>
         </li>
         
         <li class="nav-item">
@@ -81,7 +81,7 @@
       </div>
       
       <br>
-<h1 style="margin-left:690px;font-size:50px">Menu</h1>
+
 <div class="container page">
     
     <div class="container products">
