@@ -54,6 +54,7 @@ Route::get('/updates', function () {
 
    Route::get('/calories', 'PDFController@PDFgenerator');
 
+ 
 
     Route::get('/login','customerscontroller@login');
     Route::post('/logs','customerscontroller@logs');
