@@ -200,7 +200,7 @@ class ProductsController extends Controller
       $product->photo = $request->Photo;
       $product->price = $request->Price;
       $product->save();
-      return redirect('/Products')->with('status','Product is successfully Added !');
+      return redirect('/ShowProducts')->with('status','Product is successfully Added !');
 
 
     }

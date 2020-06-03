@@ -47,32 +47,36 @@
                 <span class="sr-only">(current)</span>
               </a>
         </li>
-        <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" style = "color:black" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <li class="nav-item dropdown active">
+        <a class="nav-link dropdown-toggle" href="#"  id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Product
+          <span class="sr-only">(current)</span>
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown" >
           <a class="dropdown-item" href="/addProducts">Add</a>
           <a class="dropdown-item" href="/ShowProducts">List</a>
 
       </li>
-        <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" style = "color:black" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <li class="nav-item dropdown active">
+        <a class="nav-link dropdown-toggle" href="#"  id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
          Staff
+         <span class="sr-only">(current)</span>
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown" >
         <p class="dropdown-item">Add</p>
 
           <a class="dropdown-item" href="/addKS">kitchen</a>
-          <a class="dropdown-item" href="/addDB">Delevery</a>
+          <a class="dropdown-item" href="/addDB">Delivery</a>
           <div class="dropdown-divider"></div>
           <p class="dropdown-item">List</p>
           <a class="dropdown-item" href="/KSlist">kitchen</a>
-          <a class="dropdown-item" href="/DBlist">Delevery</a>
+          <a class="dropdown-item" href="/DBlist">Delivery</a>
 
       </li>
-      <li class="nav-item">
-          <a class="nav-link" href="/login" style = "color:black">Logout</a>
+      <li class="nav-item active">
+          <a class="nav-link" href="/login" >Logout
+          <span class="sr-only">(current)</span>
+          </a>
         </li>
 
       </ul>
@@ -81,7 +85,7 @@
 </nav>
 </div>
 <div class="mb-3"></div>
-      <div style="width:1300px;margin-left:100px">
+      <div style="width:1300px;margin: 0 auto">
       @include ('includes.messages')
       </div>
       @yield('content')
