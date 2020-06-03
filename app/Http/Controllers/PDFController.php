@@ -13,3 +13,4 @@ class PDFController extends Controller
         return $pdf->download('calories.pdf');
     }
 }
+
