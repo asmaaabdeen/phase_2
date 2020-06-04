@@ -7,7 +7,7 @@
     </div>
   @endif
   <br/>
-        <h3 >Delevery Boys</h3>
+        <h3 >Delivery Boys</h3>
         <br/>
         <div class="container">
   <table id="showfeedback" class="center">
