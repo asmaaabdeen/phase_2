@@ -33,10 +33,10 @@
     </div>
     <div class="row">
       <div class="col-25">
-        <label for="adress">Address</label>
+        <label for="adress">Adress</label>
       </div>
       <div class="col-75">
-        <input type="text" id="address" name="adress" placeholder="Your address..">
+        <input type="text" id="adress" name="adress" placeholder="Your adress..">
       </div>
     </div>
     <div class="row">
