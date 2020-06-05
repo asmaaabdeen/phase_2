@@ -29,7 +29,7 @@
         <td>{{ $row['password'] }}</td>
         
         <td>
-          <form  method="post" class="delete_form" action="delete">
+          <form  method="post" class="delete_form" action="/delete">
             @csrf
             <button name="id" value="{{$row['id']}}"<?php session()->put('idu',$row['id']);?> type="submit" class="btn btn-danger">Delete</button>
           </form>

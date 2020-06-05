@@ -30,7 +30,7 @@
         <td>{{ $row['work_shift'] }}</td>
 
         <td>
-          <form  method="post" class="delete_form" action="delete">
+          <form  method="post" class="delete_form" action="/delete2">
             @csrf
             <button name="id" value="{{$row['id']}}" type="submit" class="btn btn-danger">Delete</button>
           </form>
