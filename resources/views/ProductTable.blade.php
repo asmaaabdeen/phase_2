@@ -18,6 +18,7 @@
       <th scope="col">Product Description</th>
       <th scope="col">Photo URL</th>
       <th scope="col">Product Price</th>
+      <th scope="col">Action</th>
 
     </tr>
   </thead>
@@ -29,11 +30,30 @@
         <td>{{ $row['description'] }}</td>
         <td>{{ $row['photo'] }}</td>
         <td>  {{ $row['price'] }}</td>
+        <td>
+          <form  method="post" class="delete_form" action="/deleteproduct">
+            @csrf
+            <button name="id" value="{{$row['id']}}" type="submit" class="btn btn-danger">Delete</button>
+          </form>
+        </td>
       </tr>
     @endforeach
   </tbody>
 </table>
-
+<script>
+  $(document).ready(function(){
+   $('.delete_form').on('submit', function(){
+    if(confirm("Are you sure you want to delete it?"))
+    {
+     return true;
+    }
+    else
+    {
+     return false;
+    }
+   });
+  });
+  </script>
 
 <style>
     h3{

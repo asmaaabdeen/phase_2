@@ -61,18 +61,18 @@ class StaffController extends Controller
 
     return view('remove2',compact('staff'));
   }
-public  function delete(Request $req)
+   public  function delete(Request $req)
   {
    $staff=kitchenStaff::find($req->id);
     $staff->delete();
-    return redirect('/KSlist')->with('success','Staff is successfully Deleted !');
+    return redirect('/KSlist')->with('status','Staff is successfully Deleted !');
 
   }
   public  function delete2(Request $req)
     {
      $staff=DeliveryBoy::find($req->id);
       $staff->delete();
-      return redirect('/DBlist')->with('success','DeliveryBoy is successfully Deleted !');
+      return redirect('/DBlist')->with('status','DeliveryBoy is successfully Deleted !');
 
     }
    
