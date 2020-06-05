@@ -94,3 +94,6 @@ Route::get('/ShowProducts','ProductsController@ShowProducts');
 Route::get('/addProducts','ProductsController@ShowAddProducts');
 
 Route::post('/addNewProduct','ProductsController@addProduct');
+
+Route::get('/deletepro','ProductsController@removeproduct');
+Route::post('/deleteproduct','ProductsController@deleteproduct');

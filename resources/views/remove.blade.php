@@ -16,8 +16,7 @@
       <th scope="col">User ID</th>
       <th scope="col">User Name</th>
       <th scope="col">User Password</th>
-     
-      <th scope="col"></th>
+      <th scope="col">Action</th>
 
     </tr>
   </thead>

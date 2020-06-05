@@ -204,4 +204,19 @@ class ProductsController extends Controller
 
 
     }
+    public function removeproduct()
+    {
+    $product=Product::all()->toArray();
+
+    return view('ProductTable',compact('product'));
+    }
+    
+    public  function deleteproduct(Request $req)
+    {
+    $product=Product::find($req->id);
+    $product->delete();
+    return redirect('/deletepro')->with('status','product is successfully Deleted !');
+    }
+
+  
 }
