@@ -87,7 +87,7 @@ class ProductsSeeder extends Seeder
          DB::table('products')->insert([
              'name' => 'Veggier',
              'description' => 'freshgrilledvegetables,broccoli, tomato,freshcucumber.',
-             'photo' => 'https://s3.amazonaws.com/heights-photos.bcheights.com/wp-content/uploads/2015/02/05005253/flatpat.png',
+             'photo' => 'https://www.thebuffaloburger.com/images/m_burger.png',
              'price' => 30.00
          ]);
          DB::table('products')->insert([
